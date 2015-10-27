@@ -1,6 +1,6 @@
 {
   "name": "cause-desktop-notification",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "shows desktop notifications",
   "main": "cause-desktop-notification.js",
   "scripts": {
