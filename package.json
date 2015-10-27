@@ -1,0 +1,26 @@
+{
+  "name": "cause-desktop-notification",
+  "version": "0.0.0",
+  "description": "shows desktop notifications",
+  "main": "cause-desktop-notification.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "freder.code@gmail.com",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-notifier": "^4.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freder/cause-desktop-notification.git"
+  },
+  "keywords": [
+    "cause,cause-block,notification"
+  ],
+  "bugs": {
+    "url": "https://github.com/freder/cause-desktop-notification/issues"
+  },
+  "homepage": "https://github.com/freder/cause-desktop-notification"
+}
