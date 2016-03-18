@@ -2,17 +2,22 @@
   "name": "cause-desktop-notification",
   "version": "0.1.0",
   "description": "shows desktop notifications",
-  "main": "index.js",
+  "main": "dist",
   "license": "CC-BY-NC-SA-4.0",
   "scripts": {
-    "test": "mocha"
+    "prepublish": "npm run compile",
+    "compile": "babel -d dist src",
+    "test": "mocha --watch",
+    "lint": "eslint src"
   },
   "author": "freder.code@gmail.com",
   "dependencies": {
     "lodash": "^4.5.1",
     "node-notifier": "^4.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/freder/cause-desktop-notification.git"
