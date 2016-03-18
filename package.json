@@ -1,6 +1,6 @@
 {
   "name": "cause-desktop-notification",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "shows desktop notifications",
   "main": "dist",
   "license": "CC-BY-NC-SA-4.0",
